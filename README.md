@@ -1,5 +1,26 @@
-📘 cpp-supabase_insert
-This is insert() to your Supabase database using C++ and libcurl.
+📚Overview
+This sample project demonstrates how to perform data insertion into Supabase using C++ via HTTP requests.
+
+Required Libraries
+curl (for HTTP communication)
+
+nlohmann-json (for JSON handling)
+
+Setup Instructions
+Install vcpkg
+
+Use vcpkg to install the required libraries
+
+Build the project using CMake
+
+API Configuration
+Set your Supabase URL and API KEY in main.cpp
+
+How to Run
+bash
+mkdir build && cd build
+cmake ..
+make
 
 🔧 Used Libraries and Licenses
 🌀 libcurl
