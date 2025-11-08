@@ -72,15 +72,26 @@ However, source code includes references to these libraries, and users are respo
 
 Note: This SDK is distributed as source code only. It does not include or redistribute any third-party binaries.
 
-📓How to USE
+
+How to USE
+
+
 STEP1: The cpp file and hpp file is already in your current directory.
+
 STEP2: In command prompt, you command this...
-    g++ main.cpp -o app ^
-    More?   -I"C:\Users\USER\curl-8.17.0_1-win64-mingw\curl-8.17.0_1-win64-mingw\include" ^
-    More?   -I"C:\Users\USER\json-develop\json-develop\include" ^
-    More?   -L"C:\Users\USER\curl-8.17.0_1-win64-mingw\curl-8.17.0_1-win64-mingw\lib" ^
-    More?   -lcurl
+
+g++ main.cpp -o app ^
+
+More?   -I"C:\Users\USER\curl-8.17.0_1-win64-mingw\curl-8.17.0_1-win64-mingw\include" ^
+
+More?   -I"C:\Users\USER\json-develop\json-develop\include" ^
+
+More?   -L"C:\Users\USER\curl-8.17.0_1-win64-mingw\curl-8.17.0_1-win64-mingw\lib" ^
+
+More?   -lcurl
+
 STEP3: Excute app.exe on command prompt.
+
 You can see the data at Supabase table.
 
 Thank you for libraries and readers.
