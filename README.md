@@ -1,3 +1,9 @@
+📄 License
+
+This SDK is released under the MIT License.  
+See the [LICENSE](./LICENSE) file for full license text and third-party notices.
+
+
 📚Overview
 This sample project demonstrates how to perform data insertion into Supabase using C++ via HTTP requests.
 
