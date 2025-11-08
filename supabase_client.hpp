@@ -36,6 +36,10 @@ inline void insert(const std::string& url, const std::string& api_key, const jso
     curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
     curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
     curl_easy_setopt(curl, CURLOPT_POSTFIELDS, json_str.c_str());
+    curl_easy_setopt(curl, CURLOPT_CAINFO, "cacert.pem");
+    curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
+    curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
+    curl_easy_setopt(curl, CURLOPT_URL, "https://YOUR SUPABASE URL/rest/v1/TABLE NAME");
 
 /*
   url to json sending
@@ -56,3 +60,4 @@ inline void insert(const std::string& url, const std::string& api_key, const jso
 }
 
 } // namespace supabase
+
