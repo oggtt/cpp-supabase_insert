@@ -73,10 +73,10 @@ However, source code includes references to these libraries, and users are respo
 Note: This SDK is distributed as source code only. It does not include or redistribute any third-party binaries.
 
 
-How to USE
+✒️How to USE
 
 
-STEP1: The cpp file and hpp file is already in your current directory. The cacert.pem is needed in the same directory.
+STEP1: The cpp file and hpp file is already in your current directory. The cacert.pem is needed in the same directory. At this time, Curl and JSON Libraries are already installed.
 
 STEP2: In command prompt, you command this...
 
